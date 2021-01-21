@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Ovo&display=swap');
+
+html {
+  text-align: center;
+  background-color: #111827;
+  color: #F3F4F6;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  margin: 2rem;
+}
+
+label {
+  display: block;
+  margin: 1rem;
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: bolder;
+}
+
+span {
+  display:block;
+  margin: 0.5rem;
+  font-weight: bolder;
+}
+
+input {
+  margin: 0.5rem;
+  background-color: #E5E7EB;
+  color: #111827;
+  border: 2px solid #374151;
+  text-align: inherit;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="text"]:focus, input[type="number"]:focus, input[type="date"]:focus {
+  height: 5vh;
+  
+}
+
+#div-radio label {
+  display: inline;
+  font-weight: 150;
+}
+
+#btn-radio:hover, #label-radio:hover {
+  cursor: pointer;
+}
+
+
+#btn-calculate {
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  border: 2px solid #374151;
+  border-radius: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  padding-bottom: 0.37rem;
+  font-size: 1rem;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  
+  cursor: pointer;
+  letter-spacing: 0.06rem;
+
+  background-color: #D1D5DB; 
+  color: #111827;
+  
+}
+
+#btn-calculate:hover {
+  background-color: #374151;
+  color: #EEF2FF;
+  border-radius: 0.2rem;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  font-size: x-large;
+}
+
+/* container */
+
+.container {
+  padding: 0rem 1rem;
+  padding-bottom: 1rem;
+}
+
+.container-center {
+  max-width: 320px;
+  margin: auto;
+  border: 2px solid #374151;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #EEF2FF;
+  font-weight: bolder;
+  margin: 0.1rem;
+}
+
+a:hover {
+  color: #c4c8d4;
+}
+
+
+footer {
+  margin-top: 2rem;
+  padding:1.2rem;
+  border-radius: 0.5rem;
+  border-top: 2px solid #374151;
+}
