@@ -44,8 +44,6 @@ function App() {
 
     event.preventDefault();
 
-
-
   }
 
   return (
