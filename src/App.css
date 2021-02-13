@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Ovo&display=swap');
 
@@ -15,6 +15,7 @@ html {
 h1 {
   font-family: 'PT Serif', serif;
   margin: 2rem;
+  font-style: italic;
 }
 
 label {
@@ -75,6 +76,7 @@ input[type="text"], input[type="number"], input[type="date"], input[type="text"]
   background-color: #D1D5DB; 
   color: #111827;
   
+  font-style: italic;
 }
 
 #btn-calculate:hover {
